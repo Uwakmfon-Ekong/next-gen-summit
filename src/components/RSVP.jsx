@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 // See README.md for the full setup (Code.gs) that saves entries to a Google Sheet
 // and sends a confirmation email.
 const ENDPOINT = import.meta.env.VITE_RSVP_ENDPOINT
-const CAP = 300
+const CAP = 500
 
 export default function RSVP() {
   const [count, setCount] = useState(null)

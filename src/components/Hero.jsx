@@ -25,11 +25,11 @@ export default function Hero() {
         <div className="hero-graphic reveal in reveal-delay-2">
           <div className="starburst-glow"></div>
           <div className="stat-badge">
-            <div className="n">300+</div>
+            <div className="n">500+</div>
             <div className="l">Attendees<br />Expected</div>
           </div>
           <div className="speaker-card sc1">
-            <div className="speaker-photo">TE</div>
+           <Image src="/whakee.jpeg" alt="Speaker Name" />
             <div className="speaker-info">
               <div className="name">Speaker TBC</div>
               <div className="role">Confirmed lineup coming</div>
@@ -37,7 +37,9 @@ export default function Hero() {
             </div>
           </div>
           <div className="speaker-card sc2">
-            <div className="speaker-photo">IA</div>
+            <div className="speaker-photo">
+              <Image src="/whakee.jpeg" alt="Speaker Name" />
+            </div>
             <div className="speaker-info">
               <div className="name">Speaker TBC</div>
               <div className="role">Confirmed lineup coming</div>
@@ -45,7 +47,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="speaker-card sc3">
-            <div className="speaker-photo">DR</div>
+            <Image src="/whakee.jpeg" alt="Speaker Name" />
             <div className="speaker-info">
               <div className="name">Speaker TBC</div>
               <div className="role">Confirmed lineup coming</div>
