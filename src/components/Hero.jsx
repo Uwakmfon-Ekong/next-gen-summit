@@ -1,4 +1,6 @@
-export default function Hero() {
+ 
+
+ export default function Hero() {
   const eventDate = new Date('2026-09-19T09:00:00')
   const days = Math.max(0, Math.ceil((eventDate - new Date()) / (1000 * 60 * 60 * 24)))
 
@@ -29,7 +31,7 @@ export default function Hero() {
             <div className="l">Attendees<br />Expected</div>
           </div>
           <div className="speaker-card sc1">
-           <Image src="/whakee.jpeg" alt="Speaker Name" />
+           <img src="/whakee.jpeg" alt="Speaker Name" />
             <div className="speaker-info">
               <div className="name">Speaker TBC</div>
               <div className="role">Confirmed lineup coming</div>
@@ -38,7 +40,7 @@ export default function Hero() {
           </div>
           <div className="speaker-card sc2">
             <div className="speaker-photo">
-              <Image src="/whakee.jpeg" alt="Speaker Name" />
+              <img src="/whakee.jpeg" alt="Speaker Name" />
             </div>
             <div className="speaker-info">
               <div className="name">Speaker TBC</div>
@@ -47,7 +49,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="speaker-card sc3">
-            <Image src="/whakee.jpeg" alt="Speaker Name" />
+            <img src="/whakee.jpeg" alt="Speaker Name" />
             <div className="speaker-info">
               <div className="name">Speaker TBC</div>
               <div className="role">Confirmed lineup coming</div>
