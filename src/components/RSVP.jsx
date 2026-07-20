@@ -71,7 +71,7 @@ export default function RSVP() {
   const pct = count != null ? Math.min(100, (count / CAP) * 100) : 0
 
   return (
-    <section id="rsvp">
+    <section id="rsvp" className="rsvp reveal reveal-delay-1">
       <div className="wrap">
         <div className="eyebrow">Secure Your Seat</div>
         <h2 className="sectitle">RSVP — it's free, but seats aren't infinite.</h2>

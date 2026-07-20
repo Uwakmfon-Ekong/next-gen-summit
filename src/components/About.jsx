@@ -6,8 +6,8 @@ export default function About() {
     "Genuine engagement over passive networking",
   ]
   return (
-    <section id="about">
-      <div className="wrap">
+    <section id="about" className="">
+      <div className="wrap reveal reveal-delay-1">
         <div className="eyebrow">Why This Exists</div>
         <h2 className="sectitle">Port Harcourt's rising tech talent rarely gets a stage built for them.</h2>
         <div className="split">

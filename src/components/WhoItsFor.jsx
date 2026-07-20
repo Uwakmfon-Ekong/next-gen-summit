@@ -6,7 +6,7 @@ const CARDS = [
 
 export default function WhoItsFor() {
   return (
-    <section id="who">
+    <section id="who" className="whoitsfor reveal reveal-delay-1">
       <div className="wrap">
         <div className="eyebrow">Who It's For</div>
         <h2 className="sectitle">A deliberate mix — not just a hackathon, not just a mixer.</h2>

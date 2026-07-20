@@ -6,8 +6,10 @@ import Sponsors from './components/Sponsors.jsx'
 import RSVP from './components/RSVP.jsx'
 import FAQ from './components/FAQ.jsx'
 import Footer from './components/Footer.jsx'
+import useScrollReveal from './hooks/useScrollReveal.js'
 
 export default function App() {
+  useScrollReveal()
   return (
     <>
       <Navbar />
