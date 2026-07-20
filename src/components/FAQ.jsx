@@ -10,17 +10,24 @@ const ITEMS = [
 export default function FAQ() {
   const [openIdx, setOpenIdx] = useState(0)
   return (
-    <section id="faq">
-      <div className="wrap">
-        <div className="eyebrow">FAQ</div>
-        <h2 className="sectitle">Questions, answered.</h2>
-        <div className="faqlist">
+    <section id="faq" className="border-t border-[#d9d0c2] py-14 sm:py-20">
+      <div className="mx-auto w-[calc(100%-2rem)] max-w-[1180px]">
+        <div className="mb-4 flex items-center gap-2.5 text-[11px] font-semibold uppercase tracking-[0.14em] text-[#d94a2b] before:h-px before:w-6 before:bg-[#d94a2b]">FAQ</div>
+        <h2 className="mb-4 font-['Prata'] text-[clamp(26px,5vw,40px)] font-normal leading-tight">Questions, answered.</h2>
+        <div>
           {ITEMS.map((item, i) => (
-            <div className={`faq-item ${openIdx === i ? 'open' : ''}`} key={i}>
-              <div className="faq-q" onClick={() => setOpenIdx(openIdx === i ? -1 : i)}>
-                {item.q} <span className="plus">+</span>
+            <div className="border-t border-[#d9d0c2] py-5 last:border-b" key={i}>
+              <button
+                className="flex w-full items-center justify-between gap-4 bg-transparent text-left font-['Prata'] text-base"
+                aria-expanded={openIdx === i}
+                onClick={() => setOpenIdx(openIdx === i ? -1 : i)}
+              >
+                {item.q}
+                <span className={`shrink-0 font-['Inter'] text-xl text-[#d94a2b] transition-transform ${openIdx === i ? 'rotate-45' : ''}`}>+</span>
+              </button>
+              <div className={`grid transition-[grid-template-rows] duration-300 ${openIdx === i ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'}`}>
+                <p className="overflow-hidden text-sm text-[#6e675e]"><span className="block pt-3">{item.a}</span></p>
               </div>
-              <div className="faq-a">{item.a}</div>
             </div>
           ))}
         </div>
