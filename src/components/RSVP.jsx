@@ -104,6 +104,8 @@ export default function RSVP() {
                     <select className="w-full rounded-lg border border-[#d9d0c2] bg-white px-4 py-3.5 text-[15px] outline-none transition-colors focus:border-[#d94a2b]" name="role" value={form.role} onChange={handleChange}>
                       <option>Builder / Developer</option>
                       <option>Founder / Investor</option>
+                      <option>Creator</option>
+                      <option>Designer</option>
                       <option>Student / Exploring tech</option>
                       <option>Other</option>
                     </select>
