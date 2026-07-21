@@ -23,7 +23,7 @@ export default function Sponsors() {
       <div className="mx-auto w-[calc(100%-2rem)] max-w-[1180px]">
         <div className="mt-9 text-center text-sm">
           <span>Want your brand in this lineup?</span>
-          {' '}<a className="font-semibold text-[#d94a2b] underline underline-offset-4" href="mailto:uwakmfone470@gmail.com">Become a partner →</a>
+          {' '}<a className="font-semibold text-[#d94a2b] underline underline-offset-4" href="mailto:whakee@nextgensummit.xyz"> Become a partner →</a>
         </div>
       </div>
     </section>
