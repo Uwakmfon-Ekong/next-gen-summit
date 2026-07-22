@@ -7,6 +7,7 @@ import Sponsors from './components/Sponsors.jsx'
 import FAQ from './components/FAQ.jsx'
 import Footer from './components/Footer.jsx'
 import TicketPage from './pages/TicketPage.jsx'
+import SpeakerPage from './pages/SpeakerPage.jsx'
 
 function HomePage() {
   return (
@@ -27,6 +28,7 @@ export default function App() {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/ticket" element={<TicketPage />} />
+      <Route path="/speakers" element={<SpeakerPage />} />
     </Routes>
   )
 }

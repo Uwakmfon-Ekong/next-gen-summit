@@ -12,6 +12,7 @@ export default function Navbar() {
     { href: '/#who', label: "Who it's for" },
     { href: '/#sponsors', label: 'Partners' },
     { href: '/#faq', label: 'FAQ' },
+    { href: '/speakers', label: 'Speakers' },
   ]
 
   useEffect(() => {
