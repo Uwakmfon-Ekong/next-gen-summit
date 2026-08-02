@@ -38,7 +38,7 @@ export default function Navbar() {
             animate={{ opacity: compact ? 0 : 1 }}
           >
             <img src="/logo.svg" alt="" className="h-6 w-6" aria-hidden="true" />
-            {/* Next Gen <em className="text-[#F236DE]">Summit</em> */}
+            Next Gen <em className="text-[#F236DE]">Summit</em>
           </motion.a>
           <div className={`hidden items-center gap-5 md:flex ${compact ? 'mx-auto' : ''}`}>
             <div className="flex items-center gap-6 text-[13px] text-stone-300">
