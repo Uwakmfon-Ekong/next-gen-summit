@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g transform="translate(100,100)">
+    <path fill="#F236DE" d="M-88,0 L-64,-18 L64,-18 L88,0 L64,18 L-64,18 Z"/>
+    <path fill="#F236DE" d="M-88,0 L-64,-18 L64,-18 L88,0 L64,18 L-64,18 Z" transform="rotate(60)"/>
+    <path fill="#F236DE" d="M-88,0 L-64,-18 L64,-18 L88,0 L64,18 L-64,18 Z" transform="rotate(120)"/>
+  </g>
+</svg>

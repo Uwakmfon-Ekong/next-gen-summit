@@ -2,8 +2,9 @@ import { useState } from 'react'
 
 const ITEMS = [
   { q: 'Is it really free?', a: 'Yes — entry is completely free, made possible by our partners. RSVP to reserve your seat.' },
-  { q: 'Where exactly in Port Harcourt?', a: 'Venue details will be shared with registered attendees closer to the date.' },
+  { q: 'Where exactly in Uyo?', a: 'Venue details will be shared with registered attendees closer to the date.' },
   { q: 'Do I need to be a developer to attend?', a: 'Not at all. Next Gen Summit is for builders, founders, investors, and anyone curious about tech.' },
+  { q: "What's the hackathon and debate about?", a: 'The hackathon has attendees build real, innovative solutions on the day. The live debate is audience-voted in real time via NFC smart tags — both are core parts of the summit, not side activities.' },
   { q: 'How do I become a sponsor or speaker?', a: "Reach out via the contact details in the footer — we'd love to hear from you." },
 ]
 

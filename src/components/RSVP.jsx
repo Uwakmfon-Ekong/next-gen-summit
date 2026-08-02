@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 // See README.md for the full setup (Code.gs) that saves entries to a Google Sheet
 // and sends a confirmation email.
 const ENDPOINT = import.meta.env.VITE_RSVP_ENDPOINT
-const CAP = 500
+const CAP = 300
 
 export default function RSVP() {
   const [count, setCount] = useState(null)
@@ -52,7 +52,7 @@ export default function RSVP() {
         return
       }
       if (data.status === 'full') {
-        setMessage("We're all full — but check back, more seats may open up.")
+        setMessage("We're all full but check back, more seats may open up.")
         setStatus('idle')
         return
       }
@@ -63,7 +63,7 @@ export default function RSVP() {
       setCount(data.count ?? (count ?? 0) + 1)
       setStatus('success')
     } catch (err) {
-      setMessage('Something went wrong — please try again.')
+      setMessage('Oopsie,please try again.')
       setStatus('idle')
     }
   }
@@ -121,7 +121,7 @@ export default function RSVP() {
             <div className="py-9 text-center">
               <div className="mb-3 font-['Prata'] text-4xl text-[#d94a2b]">✓</div>
               <h3 className="font-['Prata'] text-2xl">You're in.</h3>
-              <p className="mt-2.5 text-sm text-[#6e675e]">Check your email for confirmation. See you September 19 in Port Harcourt.</p>
+              <p className="mt-2.5 text-sm text-[#6e675e]">Check your email for confirmation. See you October 10 in Uyo.</p>
             </div>
           )}
         </div>

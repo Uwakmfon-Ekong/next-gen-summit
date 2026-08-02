@@ -1,15 +1,15 @@
 export default function About() {
   const points = [
-    "Direct access to PH's most active young builders, before they're on anyone's radar",
-    "Real talks and demos from people actually shipping — not just panels",
-    "A platform designed to grow annually, not a one-off",
-    "Genuine engagement over passive networking",
+    "Focuses on innovation and brings the next generation up to speed with technology",
+    "Aims to build a sustainable future for Uyo's tech ecosystem, starting with this generation",
+    "Includes a hackathon, where attendees build real, innovative solutions",
+    "Includes a live debate segment — with audience voting via NFC smart tags",
   ]
   return (
     <section id="about" className="border-t border-[#d9d0c2] py-14 sm:py-20">
       <div className="mx-auto w-[calc(100%-2rem)] max-w-[1180px]">
-        <div className="mb-4 flex items-center gap-2.5 text-[11px] font-semibold uppercase tracking-[0.14em] text-[#d94a2b] before:h-px before:w-6 before:bg-[#d94a2b]">Why This Exists</div>
-        <h2 className="mb-4 max-w-[660px] font-['Prata'] text-[clamp(26px,5vw,40px)] font-normal leading-[1.16]">Port Harcourt's rising tech talent rarely gets a stage built for them.</h2>
+        <div className="mb-4 flex items-center gap-2.5 text-[11px] font-semibold uppercase tracking-[0.14em] text-[#d94a2b] before:h-px before:w-6 before:bg-[#d94a2b]">The Idea</div>
+        <h2 className="mb-4 max-w-[660px] font-['Prata'] text-[clamp(26px,5vw,40px)] font-normal leading-[1.16]">A student-focused tech event, centered on innovation and impact.</h2>
         <div className="grid gap-8 md:grid-cols-2 md:gap-16">
           <p className="font-['Prata'] text-[clamp(21px,3.4vw,28px)] leading-[1.42]">
             Free entry means the room fills with people who showed up because they <span className="text-[#d94a2b]">care</span> — not because a ticket was cheap.

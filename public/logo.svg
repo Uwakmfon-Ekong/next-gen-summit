@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <!-- N -->
+  <path fill="#C6F135" d="M0,85 A85,85 0 0 1 170,85 L170,170 L0,170 Z"/>
+  <!-- G -->
+  <path fill="#6C3CE0" fill-rule="evenodd" d="M190,0 H360 V170 H190 Z M270,62 H360 V108 H270 Z"/>
+  <!-- asterisk -->
+  <g transform="translate(85,275)" fill="#F236DE">
+    <path d="M-78,0 L-58,-15 L58,-15 L78,0 L58,15 L-58,15 Z"/>
+    <path d="M-78,0 L-58,-15 L58,-15 L78,0 L58,15 L-58,15 Z" transform="rotate(60)"/>
+    <path d="M-78,0 L-58,-15 L58,-15 L78,0 L58,15 L-58,15 Z" transform="rotate(120)"/>
+  </g>
+  <!-- S -->
+  <g fill="#3DD6E8">
+    <rect x="190" y="195" width="115" height="58" rx="29"/>
+    <rect x="245" y="302" width="115" height="58" rx="29"/>
+    <line x1="285" y1="224" x2="265" y2="331" stroke="#3DD6E8" stroke-width="52" stroke-linecap="round"/>
+  </g>
+</svg>

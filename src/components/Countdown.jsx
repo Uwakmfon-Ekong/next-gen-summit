@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-const EVENT_DATE = new Date('2026-09-19T09:00:00')
+const EVENT_DATE = new Date('2026-10-10T09:00:00')
 
 function getTimeLeft() {
   const remaining = Math.max(0, EVENT_DATE.getTime() - Date.now())

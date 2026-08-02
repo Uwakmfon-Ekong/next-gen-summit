@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar.jsx'
 import Hero from './components/Hero.jsx'
 import About from './components/About.jsx'
+import AtAGlance from './components/AtAGlance.jsx'
 import WhoItsFor from './components/WhoItsFor.jsx'
 import Sponsors from './components/Sponsors.jsx'
 import FAQ from './components/FAQ.jsx'
@@ -15,6 +16,7 @@ function HomePage() {
       <Navbar />
       <Hero />
       <About />
+      <AtAGlance />
       <WhoItsFor />
       <Sponsors />
       <FAQ />

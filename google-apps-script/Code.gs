@@ -7,8 +7,8 @@
 const SHEET_NAME = "RSVPs";
 const CAPACITY = 300;
 const EVENT_NAME = "Next Gen Summit";
-const EVENT_DATE = "September 19, 2026";
-const EVENT_LOCATION = "Port Harcourt";
+const EVENT_DATE = "October 10, 2026";
+const EVENT_LOCATION = "Uyo";
 
 function getSheet() {
   const ss = SpreadsheetApp.getActiveSpreadsheet();

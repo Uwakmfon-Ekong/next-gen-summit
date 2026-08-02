@@ -33,10 +33,11 @@ export default function Navbar() {
           <div className="mx-auto flex h-16 w-full items-center justify-between px-3 pl-6 sm:pl-7">
           <motion.a
             href="/"
-            className={`shrink-0 font-['Prata'] text-[19px] text-[#fffdf8] no-underline ${compact ? 'hidden' : 'block'}`}
+            className={`shrink-0 flex items-center gap-2.5 font-['Prata'] text-[19px] text-[#fffdf8] no-underline ${compact ? 'hidden' : 'block'}`}
             initial={false}
             animate={{ opacity: compact ? 0 : 1 }}
           >
+            <img src="/logo.svg" alt="" className="h-6 w-6" aria-hidden="true" />
             Next Gen <em className="text-[#d94a2b]">Summit</em>
           </motion.a>
           <div className={`hidden items-center gap-5 md:flex ${compact ? 'mx-auto' : ''}`}>

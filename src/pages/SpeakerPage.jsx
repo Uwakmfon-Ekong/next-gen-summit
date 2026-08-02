@@ -21,7 +21,7 @@ export default function SpeakersPage() {
     spokenBeforeDetails: "",
     whySpeak: "",
     topic: "",
-    basedInPH: "Yes",
+    basedInUyo: "Yes",
     handleTransport: "",
   });
   const [status, setStatus] = useState("idle");
@@ -143,7 +143,7 @@ export default function SpeakersPage() {
                   name="city"
                   type="text"
                   required
-                  placeholder="e.g. Port Harcourt, Lagos, Abuja"
+                  placeholder="e.g. Uyo, Lagos, Abuja"
                   value={form.city}
                   onChange={handleChange}
                   className={inputClass}
@@ -211,11 +211,11 @@ export default function SpeakersPage() {
 
               <div>
                 <label className={labelClass}>
-                  Are you based in Port Harcourt?
+                  Are you based in Uyo?
                 </label>
                 <select
-                  name="basedInPH"
-                  value={form.basedInPH}
+                  name="basedInUyo"
+                  value={form.basedInUyo}
                   onChange={handleChange}
                   className={inputClass}
                 >
@@ -224,11 +224,11 @@ export default function SpeakersPage() {
                 </select>
               </div>
 
-              {form.basedInPH === "No" && (
+              {form.basedInUyo === "No" && (
                 <div>
                   <label className={labelClass}>
-                    Will you be able to handle your own transportation to Port
-                    Harcourt?
+                    Will you be able to handle your own transportation to
+                    Uyo?
                   </label>
                   <p className="mb-2 text-[13px] text-[#6e675e]">
                     we'll cover your accommodation for the event.
@@ -269,7 +269,7 @@ export default function SpeakersPage() {
               </div>
               <h3 className="font-['Prata'] text-2xl">Application received.</h3>
               <p className="mt-3 text-stone-600">
-                Thanks for applying — we'll review and get back to you if it's a
+                Oh!! you successfully applied? haha just wait we'll review and get back to you if it's a
                 fit.
               </p>
             </div>

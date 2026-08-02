@@ -1,6 +1,6 @@
 const CARDS = [
   { idx: 'Builders', title: 'Developers & Engineers', desc: 'Young builders shipping real projects, looking for visibility and collaborators.' },
-  { idx: 'Capital', title: 'Founders & Investors', desc: "Early-stage founders and the investors who want first access to PH's talent pipeline." },
+  { idx: 'Capital', title: 'Founders & Investors', desc: "Early-stage founders and the investors who want first access to Uyo's talent pipeline." },
   { idx: 'Community', title: 'The Tech-Curious', desc: 'Students, career-switchers, and anyone building their next opportunity.' },
 ]
 
