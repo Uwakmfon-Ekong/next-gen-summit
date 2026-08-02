@@ -1,5 +1,5 @@
 /**
- * Next Gen Summit — RSVP backend
+ * Next Gen Summit, RSVP backend
  * Deploy this inside a Google Sheet's Apps Script editor (Extensions > Apps Script).
  * See README.md for full step-by-step setup.
  */
@@ -66,7 +66,7 @@ function doPost(e) {
   try {
     sendConfirmationEmail(name, email);
   } catch (err) {
-    // Row is saved even if email fails — log it, don't block the RSVP.
+    // Row is saved even if email fails, log it, don't block the RSVP.
     console.error("Email send failed: " + err);
   }
 
@@ -74,15 +74,15 @@ function doPost(e) {
 }
 
 function sendConfirmationEmail(name, email) {
-  const subject = `You're in — ${EVENT_NAME}`;
+  const subject = `You're in, ${EVENT_NAME}`;
   const body =
-    `Hi ${name},\n\n` +
-    `You're confirmed for ${EVENT_NAME}!\n\n` +
+    `Hey ${name},\n\n` +
+    `You're locked in for ${EVENT_NAME}!\n\n` +
     `Date: ${EVENT_DATE}\n` +
     `Location: ${EVENT_LOCATION} (full venue details coming closer to the date)\n` +
     `Entry: Free\n\n` +
     `We'll send more details as the date gets closer. See you there.\n\n` +
-    `— Next Gen Summit Team`;
+    `Next Gen Summit Team`;
 
   MailApp.sendEmail(email, subject, body);
 }

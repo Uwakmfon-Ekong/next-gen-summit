@@ -4,13 +4,13 @@ export default function Footer() {
       <div className="mx-auto w-[calc(100%-2rem)] max-w-[1180px]">
         <div className="mb-3.5 flex items-center justify-center gap-2.5 font-['Prata'] text-xl">
           <img src="/logo.svg" alt="" className="h-6 w-6" aria-hidden="true" />
-          Next Gen <em className="text-[#d94a2b]">Summit</em>
+          Next Gen <em className="text-[#F236DE]">Summit</em>
         </div>
         <p className="text-xs text-stone-400">October 10, 2026 · Uyo · Free Entry</p>
         <div className="mt-4 flex flex-wrap justify-center gap-5 text-[13px]">
-          <a className="border-b border-stone-700 pb-0.5 no-underline hover:border-[#d94a2b]" href="mailto:whakee@nextgensummit.xyz">Email</a>
-          <a className="border-b border-stone-700 pb-0.5 no-underline hover:border-[#d94a2b]" href="https://t.me/whakeee" target="_blank" rel="noreferrer">Telegram</a>
-          <a className="border-b border-stone-700 pb-0.5 no-underline hover:border-[#d94a2b]" href="https://x.com/nextgensummit26?s=20" target="_blank" rel="noreferrer">X</a>
+          <a className="border-b border-stone-700 pb-0.5 no-underline hover:border-[#F236DE]" href="mailto:whakee@nextgensummit.xyz">Email</a>
+          <a className="border-b border-stone-700 pb-0.5 no-underline hover:border-[#F236DE]" href="https://t.me/whakeee" target="_blank" rel="noreferrer">Telegram</a>
+          <a className="border-b border-stone-700 pb-0.5 no-underline hover:border-[#F236DE]" href="https://x.com/nextgensummit26?s=20" target="_blank" rel="noreferrer">X</a>
         </div>
       </div>
     </footer>

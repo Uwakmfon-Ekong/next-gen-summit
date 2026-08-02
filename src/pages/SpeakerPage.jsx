@@ -7,7 +7,7 @@ import Navbar from "../components/Navbar";
 const FORMSPREE_ENDPOINT = "https://formspree.io/f/YOUR_FORM_ID";
 
 const inputClass =
-  "w-full rounded-lg border border-stone-300 bg-white px-4 py-3 text-[14.5px] text-[#171513] outline-none transition-colors focus:border-[#d94a2b]";
+  "w-full rounded-lg border border-stone-300 bg-white px-4 py-3 text-[14.5px] text-[#171513] outline-none transition-colors focus:border-[#F236DE]";
 const labelClass =
   "mb-2 block text-[11px] font-semibold uppercase tracking-wide text-stone-500";
 
@@ -60,7 +60,7 @@ export default function SpeakersPage() {
       if (!res.ok) throw new Error("Submission failed");
       setStatus("success");
     } catch (err) {
-      setMessage("Something went wrong — please try again.");
+      setMessage("Something went wrong, try again.");
       setStatus("idle");
     }
   };
@@ -80,7 +80,7 @@ export default function SpeakersPage() {
           >
             ← Back to Next Gen Summit
           </Link>
-          <div className="mb-3 mt-8 text-[12px] font-semibold uppercase tracking-widest text-[#d94a2b]">
+          <div className="mb-3 mt-8 text-[12px] font-semibold uppercase tracking-widest text-[#F236DE]">
             Speak At Next Gen Summit
           </div>
           <h1 className="mb-4 font-['Prata'] text-[clamp(30px,5vw,46px)] leading-tight">
@@ -88,8 +88,8 @@ export default function SpeakersPage() {
           </h1>
           <p className="mb-10 max-w-[520px] text-[15px] text-stone-600">
             We're looking for builders, founders, and investors in their 20s
-            with something real to share. Tell us about yourself and what you'd
-            want to talk about.
+            with something real to say. Tell us about yourself and what
+            you're tryna talk about.
           </p>
         </motion.div>
 
@@ -231,7 +231,7 @@ export default function SpeakersPage() {
                     Uyo?
                   </label>
                   <p className="mb-2 text-[13px] text-[#6e675e]">
-                    we'll cover your accommodation for the event.
+                    we got your accommodation covered for the event.
                     Just let us know about transport.
                   </p>
                   <select
@@ -259,12 +259,12 @@ export default function SpeakersPage() {
                 {status === "loading" ? "Submitting..." : "Submit Application"}
               </button>
               {message && (
-                <div className="text-[13px] text-[#d94a2b]">{message}</div>
+                <div className="text-[13px] text-[#F236DE]">{message}</div>
               )}
             </form>
           ) : (
             <div className="py-10 text-center">
-              <div className="mb-4 font-['Prata'] text-4xl text-[#d94a2b]">
+              <div className="mb-4 font-['Prata'] text-4xl text-[#F236DE]">
                 ✓
               </div>
               <h3 className="font-['Prata'] text-2xl">Application received.</h3>
