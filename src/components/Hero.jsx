@@ -31,7 +31,7 @@ export default function Hero() {
             next wave of tech talent pulls up.
           </p>
           <div className="mb-6 flex flex-wrap items-center gap-5">
-            <a href="/ticket" className="rounded-full bg-[#090909] px-8 py-4 text-[15px] font-bold text-[#fffdf8] no-underline transition-transform hover:-translate-y-0.5">
+            <a href="https://www.afrikets.com/events/6a708bb59d08721fc7bd08b7" target="_blank" rel="noreferrer" className="rounded-full bg-[#090909] px-8 py-4 text-[15px] font-bold text-[#fffdf8] no-underline transition-transform hover:-translate-y-0.5">
               Pull Up, It's Free
             </a>
             <a href="#about" className="border-b border-[#090909] pb-1 text-[15px] text-[#090909] no-underline">
