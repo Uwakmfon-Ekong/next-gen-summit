@@ -19,7 +19,7 @@ export default function AtAGlance() {
             </div>
           ))}
         </div>
-        <p className="mt-9 text-sm text-[#6e675e]">Comes with a hackathon and a live audience-voted debate. Not side quests, the main event.</p>
+        <p className="mt-9 text-sm text-[#6e675e]">Comes with a hackathon. Not a side quest, the main event.</p>
       </div>
     </section>
   )

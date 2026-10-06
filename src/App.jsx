@@ -9,6 +9,7 @@ import FAQ from './components/FAQ.jsx'
 import Footer from './components/Footer.jsx'
 import TicketPage from './pages/TicketPage.jsx'
 import SpeakerPage from './pages/SpeakerPage.jsx'
+import Speakers from './components/Speakers.jsx'
 
 function HomePage() {
   return (
@@ -18,7 +19,9 @@ function HomePage() {
       <About />
       <AtAGlance />
       <WhoItsFor />
-      <Sponsors />
+
+      {/* <Sponsors /> */}
+     <Speakers/>
       <FAQ />
       <Footer />
     </div>

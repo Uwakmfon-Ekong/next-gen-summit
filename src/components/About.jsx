@@ -3,7 +3,6 @@ export default function About() {
     "All about innovation, getting the next gen caught up on tech fr",
     "Building a real future for Uyo's tech scene, starting with us",
     "Comes with a hackathon where you build real stuff that actually works",
-    "Plus a live debate where the crowd votes in real time with NFC smart tags, no cap",
   ]
   return (
     <section id="about" className="border-t border-[#d9d0c2] py-14 sm:py-20">

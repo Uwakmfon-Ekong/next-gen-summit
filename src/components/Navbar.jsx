@@ -48,7 +48,7 @@ export default function Navbar() {
                 </a>
               ))}
             </div>
-            <a href="https://www.afrikets.com/events/6a708bb59d08721fc7bd08b7" target="_blank" rel="noreferrer" className="rounded-full bg-[#fffdf8] px-5 py-2.5 text-[13px] font-bold text-[#090909] no-underline transition-colors hover:bg-stone-200">
+            <a href="https://www.afrikets.xyz/events/6a708bb59d08721fc7bd08b7" target="_blank" rel="noreferrer" className="rounded-full bg-[#fffdf8] px-5 py-2.5 text-[13px] font-bold text-[#090909] no-underline transition-colors hover:bg-stone-200">
               Ticket
             </a>
           </div>
@@ -71,7 +71,7 @@ export default function Navbar() {
         {links.map(link => (
           <a key={link.href} href={link.href} className="font-['Prata'] text-2xl text-[#fffdf8] no-underline" onClick={() => setOpen(false)}>{link.label}</a>
         ))}
-        <a href="https://www.afrikets.com/events/6a708bb59d08721fc7bd08b7" target="_blank" rel="noreferrer" className="rounded-full bg-[#fffdf8] px-8 py-3 text-sm font-bold text-[#090909] no-underline" onClick={() => setOpen(false)}>Get Ticket</a>
+        <a href="https://www.afrikets.xyz/events/6a708bb59d08721fc7bd08b7" target="_blank" rel="noreferrer" className="rounded-full bg-[#fffdf8] px-8 py-3 text-sm font-bold text-[#090909] no-underline" onClick={() => setOpen(false)}>Get Ticket</a>
       </div>
     </>
   )
